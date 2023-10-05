@@ -161,10 +161,6 @@ p {
 	font-size: 18px;
 }
 
-.our-clients .container + .have-any-questions::before {
-	border: 12px solid red;
-}
-
 /* header&footer */
 .logo,
 .link {
