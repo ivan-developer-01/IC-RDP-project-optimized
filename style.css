@@ -1,9 +1,3 @@
-:root {
-	--container-max-width: 1263px;
-	--pagination-dots-gap: 17.54px;
-	--pagination-arrow-margin: 29.5px;
-}
-
 html,
 body {
 	margin: 0;
@@ -40,7 +34,7 @@ section {
 	width: 18px;
 	height: 18px;
 	background: #E3B873;
-	color: #FFF;
+	color: var(--full-white-color);
 	justify-content: center;
 	margin-right: 8.62px;
 	border-radius: 1px;
@@ -58,7 +52,7 @@ section {
 
 .button {
 	background-color: #E3B873;
-	color: white;
+	color: var(--full-white-color);
 	box-shadow: 0px 5px 15px 0px #E3B87333;
 	outline: none;
 	border: none;
@@ -81,7 +75,7 @@ section {
 }
 
 .title.white-title {
-	color: white;
+	color: var(--full-white-color);
 }
 
 .subtitle {
@@ -90,7 +84,7 @@ section {
 }
 
 .dark .subtitle {
-	color: white;
+	color: var(--full-white-color);
 }
 
 h2.title {
@@ -139,7 +133,7 @@ hr.divider {
 }
 
 .button-outlined {
-	border: 1px solid white;
+	border: 1px solid var(--full-white-color);
 	background: transparent;
 }
 
@@ -160,6 +154,14 @@ hr.divider {
 p {
 	font-size: 18px;
 }
+
+/* DRY block */
+.have-any-questions__request-form form .input-wrapper hr,
+.types-of-repair__request-form form .input-wrapper hr {
+	color: rgba(255, 255, 255, 0.15);
+	margin-top: 3px;
+}
+/* /DRY block */
 
 /* header&footer */
 .logo,
@@ -204,7 +206,7 @@ p {
 .header ul .header-menu__item a,
 .footer ul .footer-menu__item a {
 	text-decoration: none;
-	color: white;
+	color: var(--full-white-color);
 }
 
 .header ul .header-menu__item a:hover,
@@ -219,7 +221,7 @@ p {
 
 /* dark */
 .dark {
-	color: white;
+	color: var(--full-white-color);
 	background-color: #131313;
 }
 /* /dark */
@@ -324,7 +326,7 @@ p {
 }
 
 .pagination__dots .pagination__dot.active {
-	background: white;
+	background: var(--full-white-color);
 }
 
 .pagination__arrow-left,
@@ -507,7 +509,7 @@ p {
 	max-width: 330px;
 	margin: 0 auto;
 	margin-top: calc(-392px + 294px);
-	background: #FFF;
+	background: var(--full-white-color);
 	min-width: 330px;
 }
 
@@ -571,12 +573,12 @@ p {
 	width: 41.76px;
 	height: 41.76px;
 	border-radius: 50%;
-	color: #FFF;
+	color: var(--full-white-color);
 	font-size: 18px;
 	font-family: "Yeseva One", 'Times New Roman', Times, serif;
 	font-style: normal;
 	line-height: 138.6%;
-	border: 8px solid #FFF;
+	border: 8px solid var(--full-white-color);
 	box-shadow: 0px 5px 15px 0px rgba(227,184,115, 0.15);
 	/* fixing the padding */
 	padding: calc(13px + 6px) calc(14px + 5px);
@@ -627,6 +629,7 @@ p {
 .types-of-repair__request-form form .checkbox-label {
 	margin: 16px 0 0 0;
 	align-self: start;
+	color: var(--full-white-color);
 }
 
 .types-of-repair__request-form form .button {
@@ -646,26 +649,16 @@ p {
 	margin-top: 39px;
 }
 
-.types-of-repair__request-form form .input-wrapper hr {
-	color: rgba(255, 255, 255, 0.15);
-	margin-top: 3px;
-}
-
 .types-of-repair__request-form form .input {
 	background: transparent;
-	color: #FFF;
 }
 
 .types-of-repair__request-form form .input::placeholder {
-	color: #FFF;
+	color: var(--full-white-color);
 }
 
 .types-of-repair__request-form form label {
 	color: rgba(255, 255, 255, 0.5);
-}
-
-.types-of-repair__request-form form .checkbox-label {
-	color: #FFF;
 }
 /* /types-of-repair */
 
@@ -713,7 +706,7 @@ p {
 
 .we-realize .we-realize__tabs li a {
 	text-transform: none;
-	color: #FFF;
+	color: var(--full-white-color);
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -812,7 +805,7 @@ p {
 	align-items: center;
 	padding: 11px 17.36px;
 	background: #E3B873;
-	color: #FFF;
+	color: var(--full-white-color);
 	margin-left: 0.88px;
 	text-transform: uppercase;
 	box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
@@ -910,12 +903,17 @@ p {
 .have-any-questions__request-form form .checkbox-label {
 	margin: 16px 0 0 0;
 	align-self: start;
-	color: #FFF;
+	color: var(--full-white-color);
 }
 
 .have-any-questions__request-form form .button {
 	align-self: flex-end;
 	margin-top: 39px;
+	align-self: center;
+	font-style: normal;
+	margin-top: 50.45px;
+	border-radius: 0;
+	min-width: 200px;
 }
 
 .have-any-questions__request-form form .input-wrapper {
@@ -924,19 +922,17 @@ p {
 }
 
 .have-any-questions__request-form form .input-wrapper hr {
-	color: rgba(255, 255, 255, 0.15);
-	margin-top: 3px;
 	width: 100%;
 	max-width: 523px;
 }
 
 .have-any-questions__request-form form .input {
 	background: transparent;
-	color: #FFF;
+	color: var(--full-white-color);
 }
 
 .have-any-questions__request-form form .input::placeholder {
-	color: #FFF;
+	color: var(--full-white-color);
 }
 
 .have-any-questions__request-form form label {
@@ -953,14 +949,6 @@ p {
 
 .have-any-questions__request-form form .row-one-column {
 	grid-template-columns: 1fr;
-}
-
-.have-any-questions__request-form form .button {
-	align-self: center;
-	font-style: normal;
-	margin-top: 50.45px;
-	border-radius: 0;
-	min-width: 200px;
 }
 
 .have-any-questions address {

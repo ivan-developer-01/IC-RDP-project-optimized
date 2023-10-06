@@ -1,7 +1,4 @@
-.completed-projects__mobile-slider {
-	display: none;
-}
-
+.completed-projects__mobile-slider,
 .we-realize .mobile-title {
 	display: none;
 }
@@ -33,7 +30,7 @@
 	}
 
 	.header .phone-link {
-		color: #FFF;
+		color: var(--full-white-color);
 	}
 	/* /header */
 
@@ -124,7 +121,7 @@
 	/* online-control */
 	.online-control {
 		background: #131313;
-		color: #FFF;
+		color: var(--full-white-color);
 	}
 	
 	.online-control__video-image,
@@ -167,7 +164,7 @@
 	}
 
 	.online-control .input::placeholder {
-		color: #FFF;
+		color: var(--full-white-color);
 	}
 
 	.online-control form .checkbox-label {
