@@ -163,6 +163,7 @@
 		background: transparent;
 	}
 
+	.online-control .input,
 	.online-control .input::placeholder {
 		color: var(--full-white-color);
 	}

@@ -103,8 +103,7 @@ hr.divider {
 	width: 55px;
 	background-color: #E3B873;
 	border-radius: 1px;
-	margin-top: 62.5px;
-	margin-bottom: 34.46px;
+	margin: 62.5px auto 34.46px;
 }
 
 .input-wrapper {
@@ -120,8 +119,7 @@ hr.divider {
 	color: #363636;
 	border: none;
 	border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-	padding: 0;
-	padding-bottom: 8px;
+	padding: 0 0 8px;
 	border-radius: 0;
 	font-size: 14px;
 }
@@ -138,8 +136,7 @@ hr.divider {
 }
 
 .section-icon {
-	margin-bottom: 31px;
-	margin-top: 13px;
+	margin: 13px auto 31px;
 }
 
 .icon-line {
@@ -291,8 +288,7 @@ p {
 }
 
 .completed-projects__repair-details-wrapper {
-	padding: 45px 27px;
-	padding-bottom: 0;
+	padding: 45px 27px 0;
 	display: flex;
 	flex-direction: column;
 }
@@ -617,9 +613,6 @@ p {
 
 .types-of-repair__request-form form {
 	background: #000;
-	padding-left: 49px;
-	padding-right: 49px;
-	padding-top: 28px;
 	padding: 28px 49px 27px 49px;
 	display: flex;
 	flex-direction: column;
@@ -730,9 +723,8 @@ p {
 }
 
 .we-realize .we-realize__images .column:nth-child(odd) {
-	margin-top: -41px;
 	gap: 39.12px;
-	margin-bottom: -41px;
+	margin: -41px 0;
 }
 
 .we-realize .we-realize__mobile-slider-controls {
@@ -885,14 +877,10 @@ p {
 	max-width: 883px;
 	width: 100%;
 	background: #000;
-	margin-top: calc(-428px / 2);
-	margin-bottom: 52.01px;
+	margin: calc(-428px / 2) auto 52.01px;
 }
 
 .have-any-questions__request-form form {
-	padding-left: 49px;
-	padding-right: 49px;
-	padding-top: 28px;
 	padding: 28px 49px 27px 49px;
 	display: flex;
 	flex-direction: column;
@@ -977,7 +965,6 @@ p {
 }
 
 .have-any-questions .have-any-questions__map {
-	margin-top: 42px;
-	margin-bottom: 64px;
+	margin: 42px 0 64px;
 }
 /* /have-any-questions */
