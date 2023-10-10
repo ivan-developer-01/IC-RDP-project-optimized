@@ -1,3 +1,4 @@
+# IC-RDP-project
  - Removed debug code in style.css
  - Applied the DRY principle
    - Created the --full-white-color variable and applied it in the style.css and in the mobile.css
