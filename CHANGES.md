@@ -13,4 +13,3 @@
 	 margin: 44px auto 50px;
 	 ```
    - Did the same with the `padding` property
- - Applied the YAGNI principle.
