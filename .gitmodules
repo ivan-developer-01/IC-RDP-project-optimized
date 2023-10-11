@@ -1,3 +1,6 @@
 [submodule "IC-RDP-project.optimized/IC-RDP-project"]
 	path = IC-RDP-project.optimized/IC-RDP-project
 	url = https://github.com/ivan-developer-01/IC-RDP-project.git
+[submodule "Learning-JavaScript-Course-Task.optimized/Learning-JavaScript-Course-Task"]
+	path = Learning-JavaScript-Course-Task.optimized/Learning-JavaScript-Course-Task
+	url = https://github.com/ivan-developer-01/Learning-JavaScript-Course-Task/
