@@ -15,3 +15,7 @@
 	 margin: 44px auto 50px;
 	 ```
    - Did the same with the `padding` property
+
+## Learning-JavaScript-Course-Task
+ - Applied the YAGNI principle
+   - Removed the improvements that wasn't in the task
