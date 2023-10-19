@@ -9,6 +9,8 @@ Practicing code principles.
  - Linters
  - BEM
 
+## Semantics
+ - [x] I have checked the semantics of the HTML code in IC-RDP-project and have found no errors.
 
 ## Change list
 See at [CHANGES.md](CHANGES.md).
