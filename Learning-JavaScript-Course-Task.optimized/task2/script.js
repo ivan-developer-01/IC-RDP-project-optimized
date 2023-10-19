@@ -12,18 +12,11 @@ const methodDescriptions = {
     prompt: "Метод для введения информации пользователем в браузере"
 };
 
-buttons.consoleLog.addEventListener("click", () => {
-    alert(methodDescriptions.consoleLog);
-});
+const allIds = Object.keys(methodDescriptions);
 
-buttons.alert.addEventListener("click", () => {
-    alert(methodDescriptions.alert);
-});
+document.body.addEventListener("click", ({ target }) => {
+	if (target.tagName !== "BUTTON") return;
+	if (!allIds.includes(target.getAttribute("id"))) return;
 
-buttons.confirm.addEventListener("click", () => {
-    alert(methodDescriptions.confirm);
-});
-
-buttons.prompt.addEventListener("click", () => {
-    alert(methodDescriptions.prompt);
+	alert(methodDescriptions[target.getAttribute('id')]);
 });
