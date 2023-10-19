@@ -1,2 +1,14 @@
-# IC-RDP-project-optimized
-The layout for the IC "Repair Design Project" but optimized with DRY, KISS, YAGNI, SOLID, BEM, and linters. Also used semantics.
+# task-20.10-code-principles
+Practicing code principles.
+
+## Learned
+ - DRY (IC-RDP-project)
+ - KISS (IC-RDP-project)
+ - YAGNI (Learning-JavaScript-Course-Task)
+ - SOLID (Learning-JavaScript-Course-Task)
+ - Linters
+ - BEM
+
+
+## Change list
+See at [CHANGES.md](CHANGES.md).
