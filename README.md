@@ -19,5 +19,6 @@ Practicing code principles.
 I have used these linters to check and format my HTML code in IC-RDP-project:
  - Built-in VSCode formatter
  - Prettier (Didn't configure it but it works from scratch)
+
 ## Change list
 See at [CHANGES.md](CHANGES.md).
