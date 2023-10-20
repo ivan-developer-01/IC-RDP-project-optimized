@@ -6,10 +6,10 @@ Practicing code principles.
  - KISS (IC-RDP-project)
  - YAGNI (Learning-JavaScript-Course-Task)
  - SOLID (Learning-JavaScript-Course-Task)
- - Semantics
- - Validity
- - Linters
- - BEM
+ - Semantics (IC-RDP-project)
+ - Validity (IC-RDP-project)
+ - Linters (IC-RDP-project)
+ - BEM (IC-RDP-project)
 
 ## Semantics
  - [x] I have checked the semantics of the HTML code in IC-RDP-project and have found no errors.
@@ -19,6 +19,10 @@ Practicing code principles.
 I have used these linters to check and format my HTML code in IC-RDP-project:
  - Built-in VSCode formatter
  - Prettier (Didn't configure it but it works from scratch)
+
+## BEM
+> **Note**
+> I have found that IC-RDP-project already adheres to the BEM principle and thus have not changed the HTML code of the IC-RDP-project for BEM.
 
 ## Change list
 See at [CHANGES.md](CHANGES.md).
